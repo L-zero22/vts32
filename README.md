@@ -50,7 +50,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
     npm install -D sass
 
 
-##  组件库 字体库 图标库
+##  组件库 字体库 图标库 (naive UI)
     npm i -D naive-ui （组件）
     npm i -D vfonts （字体）
 
