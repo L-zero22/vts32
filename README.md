@@ -54,4 +54,4 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
     npm i -D naive-ui （组件）
     npm i -D vfonts （字体）
 
-    naive-ui 建议使用 [xicons]('https://www.xicons.org/#/) 作为图标库
+naive-ui 建议使用 [xicons]('https://www.xicons.org/#/)  作为图标库
