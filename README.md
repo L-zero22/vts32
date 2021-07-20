@@ -27,16 +27,20 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 5. Search and run "Select TypeScript version" -> "Use workspace version"
 
 ***
+
 # 开始
+`vue3` `vue-router`  `vite2` `typescript`
+
 
 
 ## GitHub
- git@github.com:L-zero22/vts32.git
- https://github.com/L-zero22/vts32.git
+git@github.com:L-zero22/vts32.git
+
+https://github.com/L-zero22/vts32.git
 
 ## 问题
-    找不到模块 ‘path’ 或其相对应的类型声明
-    找不到名称"__dirname"
+找不到模块 `‘path’` 或其相对应的类型声明
+找不到名称`"__dirname"`
 
     npm install @types/node --save-dev
 
@@ -50,8 +54,8 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
     npm install -D sass
 
 
-##  组件库 字体库 图标库 (naive UI)
+## 组件库 字体库 图标库 (naive UI)
     npm i -D naive-ui （组件）
     npm i -D vfonts （字体）
 
-naive-ui 建议使用 [xicons]('https://www.xicons.org/#/)  作为图标库
+naive-ui 建议使用 [xicons](https://www.xicons.org/#/)  作为图标库
