@@ -41,8 +41,20 @@ https://github.com/L-zero22/vts32.git
 ## 问题
 找不到模块 `‘path’` 或其相对应的类型声明
 找不到名称`"__dirname"`
+```
+npm install @types/node --save-dev
+```
 
-    npm install @types/node --save-dev
+`vite/TS` 路径别名设置报错在`tsconfig.json`中添加
+
+```
+{
+    "baseUrl":"/",
+    "paths":{
+      "@":["/src"]
+    }
+}
+```
 
 ## vue-router
     npm install vue-router@4
@@ -59,3 +71,4 @@ https://github.com/L-zero22/vts32.git
     npm i -D vfonts （字体）
 
 naive-ui 建议使用 [xicons](https://www.xicons.org/#/)  作为图标库
+

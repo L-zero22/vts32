@@ -51,7 +51,7 @@ const loginInfo = reactive<loginInfo>({
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 
-box-shadow: 0 0 22px 2px brown;
+    box-shadow: 0 0 22px 2px brown;
 
     }
 </style>
