@@ -1,38 +1,30 @@
+<!--
+    @desc 默认显示页面
+ -->
 <template>
-   <div class="main">
-    <div class="loginBox">
-        <div class="username">
+    <main class="content">
 
-        </div>
-        <div class="password">
-
-        </div>
-        <div class="code">
-
-        </div>
-    </div>
-   </div>
+    </main>
 </template>
 
 <script lang="ts"  setup>
-import {reactive} from 'vue'
+import { reactive } from 'vue'
 
-interface loginInfo{
-    username:string,
-    password:string,
-    code?:string
+interface loginInfo {
+    username: string
+    password: string
+    code?: string
 }
 
-
-
 const loginInfo = reactive<loginInfo>({
-    username:"",
-    password:"",
-    code:''
+    username: '',
+    password: '',
+    code: ''
 })
 </script>
 
 <style lang="scss" scoped>
+<<<<<<< HEAD
     .main{
         width: 100%;
         height: 100%;
@@ -54,4 +46,6 @@ const loginInfo = reactive<loginInfo>({
     box-shadow: 0 0 22px 2px brown;
 
     }
+=======
+>>>>>>> f34f235233e4c3f877881d622a890dcb1eb203e8
 </style>
